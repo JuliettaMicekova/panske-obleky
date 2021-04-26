@@ -45,12 +45,14 @@ h1.site-title span {
 }
 
 .product {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
 }
 
-.product__image {
+.product .product__image {
   width: 6rem;
   height: auto;
 }
@@ -69,10 +71,10 @@ h1.site-title span {
 }
 
 .cervena {
-  background-color: red;
+  background-color: rgb(190, 87, 87);
 }
 .nebesky-modra {
-  background-color: blue;
+  background-color: rgb(99, 143, 209);
 }
 button {
   border-radius: 50%;
@@ -81,22 +83,19 @@ button {
   box-shadow: 0 0 2px cornsilk;
 }
 
-/* .colors {
-  display: flex;
-  flex-direction: row;
-} */
 .color-option__box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-/* .product-container {
+.color-option {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-} */
+}
 
-.objednat {
+.color-option__submit {
   width: 135px;
   height: 35px;
   border-radius: 20px;
