@@ -59,3 +59,10 @@ h1.site-title span {
   stroke: #000;
   stroke-width: 2;
 }
+
+.color-option__box {
+  display: flex;
+  background-color: white;
+  border-radius: 50%;
+  width: 5em;
+}
