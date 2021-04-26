@@ -62,9 +62,23 @@ h1.site-title span {
   stroke-width: 2;
 }
 
-.color-option__box {
-  display: flex;
+.bila {
   background-color: white;
+}
+
+.cerna {
+  background-color: black;
+}
+
+.cervena {
+  background-color: red;
+}
+.nebesky-modra {
+  background-color: blue;
+}
+button {
   border-radius: 50%;
-  width: 5em;
+  width: 3em;
+  height: 3em;
+  box-shadow: 0 0 2px cornsilk;
 }
