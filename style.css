@@ -45,11 +45,13 @@ h1.site-title span {
 }
 
 .product {
-  /* display: flex;
-  flex-wrap: wrap; */
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  display: flex;
+  text-align: center;
+  text-align: center;
+  font-size: 15px;
 }
 
 .product .product__image {
@@ -75,16 +77,20 @@ button {
   border-radius: 50%;
   width: 3em;
   height: 3em;
-  box-shadow: 0 0 2px cornsilk;
+  box-shadow: 0 0 10 px rgb(247, 247, 244);
 }
 
 .color-option__box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.color-option__submit {
+.submit {
   width: 135px;
   height: 35px;
   border-radius: 20px;
@@ -94,5 +100,7 @@ button {
 }
 
 .color-option__name {
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
