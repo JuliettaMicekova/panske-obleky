@@ -23,7 +23,10 @@ body {
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   flex-direction: row;
+=======
+>>>>>>> 22ca95be912eb6540de811f1ae1ff868d8959b3b
 }
 
 header {
@@ -80,4 +83,13 @@ button {
   width: 3em;
   height: 3em;
   box-shadow: 0 0 2px cornsilk;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+}
+.color-option__box {
+  display: flex;
+  flex-direction: row;
 }
