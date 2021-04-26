@@ -45,8 +45,8 @@ h1.site-title span {
 }
 
 .product {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
@@ -62,14 +62,9 @@ h1.site-title span {
   stroke-width: 2;
 }
 
-.bila {
-  background-color: white;
-}
-
 .cerna {
   background-color: black;
 }
-
 .cervena {
   background-color: rgb(190, 87, 87);
 }
@@ -85,21 +80,19 @@ button {
 
 .color-option__box {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-}
-
-.color-option {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .color-option__submit {
   width: 135px;
   height: 35px;
   border-radius: 20px;
-  background-color: black;
+  background-color: #141518;
   font-size: 15px;
   color: white;
+}
+
+.color-option__name {
+  text-align: center;
 }
